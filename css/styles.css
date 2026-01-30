@@ -1,0 +1,238 @@
+@font-face {
+
+  font-family: 'Inter-Bold';
+
+  src: url('../assets/fonts/static/Inter-Bold.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+@font-face {
+
+  font-family: 'Inter-Regular';
+
+  src: url('../assets/fonts/static/Inter-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+* {
+
+  /* BOX MODEL */
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+  /* DISPLAY & FLEX/GRID */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  /* BOX MODEL */
+
+    min-height: 100vh;
+
+  /* VISUALS */
+
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.card {
+
+  /* DISPLAY & FLEX/GRID */
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+  /* BOX MODEL */
+
+    padding: 40px;
+
+    width: 360px;
+
+    height: auto;
+
+  /* VISUALS */
+
+    background-color: hsl(0, 0%, 12%);
+
+    border-radius: 10px;
+
+}
+
+.person {
+
+  /* DISPLAY & FLEX/GRID */
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+  /* BOX MODEL */
+
+    width: 100%;
+
+    margin-bottom: 24px;
+
+}
+
+.links {
+
+  /* DISPLAY & FLEX/GRID */
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+  /* BOX MODEL */
+
+    width: 100%;
+
+}
+
+figure {
+
+  /* DISPLAY & FLEX/GRID */
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+  /* BOX MODEL */
+
+      width: 100%;
+
+}
+
+.location {
+
+  /* BOX MODEL */
+
+      margin-bottom: 24px;
+
+
+	/* TYPOGRAPHY */
+
+		font-family: 'Inter-Bold', sans-serif;
+
+		font-size: 14px;
+
+		line-height: 1.5;
+
+		letter-spacing: 0px;
+
+    color: hsl(75, 94%, 57%);
+
+}
+
+.pDesc {
+
+	/* TYPOGRAPHY */
+
+		font-family: 'Inter-Regular', sans-serif;
+
+		font-size: 14px;
+
+		line-height: 1.5;
+
+		letter-spacing: 0px;
+
+    color: hsl(0, 0%, 100%);
+
+}
+
+a {
+
+  /* DISPLAY & FLEX/GRID */
+
+    display: block;
+
+  /* BOX MODEL */
+
+    padding-top: 7px;
+
+    padding-bottom: 7px;
+
+	/* TYPOGRAPHY */
+
+		font-family: 'Inter-Bold', sans-serif;
+
+		font-size: 14px;
+
+		line-height: 1.5;
+
+		letter-spacing: 0px;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    color: hsl(0, 0%, 100%);
+
+  /* VISUALS */
+
+    background-color: hsl(0, 0%, 20%);
+
+    border-radius: 5px;
+
+}
+
+img {
+
+  /* BOX MODEL */
+
+    width: 23%;
+
+    hwight: auto;
+
+    margin-bottom: 24px;
+
+  /* VISUALS */
+
+    border-radius: 50%;
+
+}
+
+figcaption {
+
+	/* TYPOGRAPHY */
+
+		font-family: 'Inter-Bold', sans-serif;
+
+		font-size: 24px;
+
+		line-height: 1.5;
+
+		letter-spacing: 0px;
+
+    color: hsl(0, 0%, 100%);
+
+}
