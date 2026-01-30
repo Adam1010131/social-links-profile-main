@@ -43,9 +43,9 @@ Users should be able to:
 
 ### What I learned
 
-I made a greater effort to use semantic HTML elements.
+* I made a greater effort to use semantic HTML elements.
 
-I have also refined my process for creating web pages.
+* I have also refined my process for creating web pages.
 
 -------
 
@@ -68,6 +68,8 @@ Rank selectors by place in HTML tree.
 
 -------
 
+* Next time, I should group <a></a> tags inside a list.
+  
 ### Continued development
 
 I will continue to refine my process as outlined above.
